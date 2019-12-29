@@ -1,0 +1,14 @@
+server:
+  port: 80
+
+eureka:
+  client:
+    register-with-eureka: false  #服务注册关闭
+    fetch-registry: true #服务发现开启
+    service-url:
+      defaultZone: http://eureka6001.com:6001/eureka,http://eureka6002.com:6002/eureka
+
+#Feign客户端熔断
+feign:
+  hystrix:
+    enabled: true
