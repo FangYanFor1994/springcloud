@@ -17,6 +17,7 @@
         <module>../microservice-cloud-08-consumer-product-feign</module>
         <module>../microservice-cloud-09-provider-product-hystrix</module>
         <module>../microservice-cloud-10-hystrix-dashboard-9001</module>
+        <module>../microservice-cloud-11-zuul-gateway-7001</module>
     </modules>
     <!--手动指定pom-->
     <packaging>pom</packaging>
