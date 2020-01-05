@@ -8,5 +8,6 @@ spring:
       server:
         git:
           uri: https://github.com/FangYanFor1994/microservice-cloud-config.git
-
-
+          username: FangYanFor1994
+          password: fangyan1994!
+          skip-ssl-validation: true

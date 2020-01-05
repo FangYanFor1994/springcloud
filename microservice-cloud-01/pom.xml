@@ -21,6 +21,7 @@
         <module>../microservice-cloud-12-config-server-5001</module>
         <module>../microservice-cloud-13-config-client-8080</module>
         <module>../microservice-cloud-14-config-eureka-6001</module>
+        <module>../microservice-cloud-15-config-product-8001</module>
     </modules>
     <!--手动指定pom-->
     <packaging>pom</packaging>
